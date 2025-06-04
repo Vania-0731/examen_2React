@@ -1,6 +1,10 @@
 import { Link } from "react-router-dom";
 
 export default function Header() {
+  // Paleta Dribbble
+  const dribbbleRosa = "#EA4C89";
+  const fondoClaro = "#f9f9f9";
+  const textoOscuro = "#333";
 
   return (
     <nav
@@ -13,8 +17,9 @@ export default function Header() {
           to="/"
           style={{ color: dribbbleRosa, fontWeight: "900", fontSize: "1.5rem" }}
         >
-          Dribbble
+          DribbbleClone
         </Link>
+
         <button
           className="navbar-toggler"
           type="button"

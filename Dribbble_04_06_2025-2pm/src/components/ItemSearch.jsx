@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { diseños } from "../data/items";
+import { diseños } from "../data/items"; // cambiar a diseños
 import { useDebounce } from "../hooks/useDebounce";
 import ItemList from "./ItemList";
 import LoadingSkeleton from "./LoadingSkeleton";
@@ -18,6 +18,7 @@ export default function DisenoSearch() {
 
   useEffect(() => {
     setTimeout(() => {
+      // Evitar duplicados por id, si acaso
       const uniqueItems = Array.from(
         new Map(diseños.map(item => [item.id, item])).values()
       );

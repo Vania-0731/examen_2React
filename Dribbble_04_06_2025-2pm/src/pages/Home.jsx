@@ -1,8 +1,12 @@
+import CarouselBanner from "../components/HeroBanner";
+import DisenoPreviewList from "../components/CardList";
+import { diseños } from "../data/items";
 
- export function Home() {
+export default function Home() {
   return (
     <>
-      <ItemSearch />
+      <CarouselBanner items={diseños} />
+      <DisenoPreviewList items={diseños} />
     </>
-  )
+  );
 }

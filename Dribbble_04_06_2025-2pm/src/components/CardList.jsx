@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { diseños } from "../data/items";
+import { diseños } from "../data/items"; // asegurate de que el nombre del archivo sea correcto
 import ItemCard from "./ItemCard";
 
 export default function DisenoPreviewList() {
