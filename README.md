@@ -5,6 +5,11 @@ Breve descripción del proyecto.
  Este proyecto es una SPA (Single Page Application) que utiliza React con Vite para mostrar una galería de Diseños gráficos con funcionalidades de búsqueda, favoritos, y un formulario de contacto.
 
 ---
+# Deploy
+
+   ```bash
+   https://examen-2-react-vtco.vercel.app/
+   ```
 
 ## Tecnologías y Versiones
 
@@ -29,7 +34,7 @@ Breve descripción del proyecto.
    cd Dribbble_04_06_2025-2pm 
    ```
 
-2. Instalar dependencias:
+2. Por si presenta problemas con las dependencias:
 
    ```bash
    npm install
