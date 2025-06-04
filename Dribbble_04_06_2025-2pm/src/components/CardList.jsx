@@ -1,5 +1,7 @@
 import { useState, useEffect } from "react";
 import { diseños } from "../data/items"; 
+import ItemCard from "./ItemCard";
+
 export default function DisenoPreviewList() {
   const [listaDiseños, setListaDiseños] = useState([]);
 
@@ -24,8 +26,8 @@ export default function DisenoPreviewList() {
           <div key={item.id} className="col-12 col-sm-6 col-md-4">
             <ItemCard
               item={item}
-              favorites={[]} 
-              onToggleFavorite={() => {}} 
+              favorites={[]}
+              onToggleFavorite={() => {}}
               showFavoriteBtn={false}
             />
           </div>
