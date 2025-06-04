@@ -1,38 +1,92 @@
 export const diseños = [
-    {
-        "img": "https://cdn.dribbble.com/userupload/15362377/file/original-bf7355f3494cab1ceb99ce0c6c75cb9b.png?format=webp&resize=400x300&vertical=center",
-        "autor": "Vania SIfuentes",
-        "titulo" : " App Movil",
-        "likes" : "525"
-    },
-    {
-        "img": "https://cdn.dribbble.com/userupload/15362377/file/original-bf7355f3494cab1ceb99ce0c6c75cb9b.png?format=webp&resize=400x300&vertical=center",
-        "autor": "Vania SIfuentes",
-        "titulo" : " App Movil",
-        "likes" : "525"
-    },
-    {
-        "img": "https://cdn.dribbble.com/userupload/15362377/file/original-bf7355f3494cab1ceb99ce0c6c75cb9b.png?format=webp&resize=400x300&vertical=center",
-        "autor": "Vania SIfuentes",
-        "titulo" : " App Movil",
-        "likes" : "525"
-    },
-    {
-        "img": "https://cdn.dribbble.com/userupload/15362377/file/original-bf7355f3494cab1ceb99ce0c6c75cb9b.png?format=webp&resize=400x300&vertical=center",
-        "autor": "Vania SIfuentes",
-        "titulo" : " App Movil",
-        "likes" : "525"
-    },
-    {
-        "img": "https://cdn.dribbble.com/userupload/15362377/file/original-bf7355f3494cab1ceb99ce0c6c75cb9b.png?format=webp&resize=400x300&vertical=center",
-        "autor": "Vania SIfuentes",
-        "titulo" : " App Movil",
-        "likes" : "525"
-    },
-    {
-        "img": "https://cdn.dribbble.com/userupload/15362377/file/original-bf7355f3494cab1ceb99ce0c6c75cb9b.png?format=webp&resize=400x300&vertical=center",
-        "autor": "Vania SIfuentes",
-        "titulo" : " App Movil",
-        "likes" : "525"
-    },
-]
+  {
+    id: 1,
+    titulo: "Minimal UI Kit",
+    diseñador: "Laura Gómez",
+    imagen: "https://cdn.dribbble.com/users/116739/screenshots/3239377/attachments/694096/minimal.png",
+    likes: 320,
+    etiquetas: ["ui", "kit", "minimal", "app"],
+    destacado: true,
+  },
+  {
+    id: 2,
+    titulo: "E-commerce App",
+    diseñador: "Carlos Pérez",
+    imagen: "https://cdn.dribbble.com/userupload/9213901/file/original-336b35b284bc15ea5580929fda50de31.png?resize=400x0",
+    likes: 278,
+    etiquetas: ["ecommerce", "app", "mobile"],
+    destacado: true,
+  },
+  {
+    id: 3,
+    titulo: "Dashboard Admin",
+    diseñador: "María Ortega",
+    imagen: "https://cdn.dribbble.com/userupload/7390114/file/original-5f5fbfd92778729ead377654bdcb7174.png?format=webp&resize=400x300&vertical=center",
+    likes: 410,
+    etiquetas: ["dashboard", "admin", "web"],
+    destacado: false,
+  },
+  {
+    id: 4,
+    titulo: "Landing Page Startup",
+    diseñador: "Jorge Ramírez",
+    imagen: "https://cdn.dribbble.com/userupload/16639092/file/original-c3ef46fa521cd9662a0e24656c6a09a5.png?resize=400x0",
+    likes: 356,
+    etiquetas: ["landing", "startup", "marketing"],
+    destacado: true,
+  },
+  {
+    id: 5,
+    titulo: "Fitness App Design",
+    diseñador: "Sofía Herrera",
+    imagen: "https://cdn.dribbble.com/userupload/13397657/file/original-4b4fa1a2c19d5df3ecf9dadb84e8b5f7.png?resize=752x&vertical=center",
+    likes: 198,
+    etiquetas: ["fitness", "app", "health"],
+    destacado: false,
+  },
+  {
+    id: 6,
+    titulo: "Crypto Wallet UI",
+    diseñador: "Luis Medina",
+    imagen: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmIOUI6QpglVtuvF5AsP0jbFu9tmRH8tGxOQ&s",
+    likes: 422,
+    etiquetas: ["crypto", "wallet", "fintech"],
+    destacado: true,
+  },
+  {
+    id: 7,
+    titulo: "Travel Blog Layout",
+    diseñador: "Ana Torres",
+    imagen: "https://cdn.dribbble.com/userupload/30924406/file/original-1d35652f85df4eac2090f7e8ebbcb19d.png?format=webp&resize=400x300&vertical=center",
+    likes: 175,
+    etiquetas: ["travel", "blog", "web"],
+    destacado: false,
+  },
+  {
+    id: 8,
+    titulo: "Food Delivery App",
+    diseñador: "Pedro Ruiz",
+    imagen: "https://cdn.dribbble.com/userupload/37446647/file/original-daf135ee1dbf1a09a099e027ee13b85f.jpg?format=webp&resize=400x300&vertical=center",
+    likes: 309,
+    etiquetas: ["food", "delivery", "app"],
+    destacado: true,
+  },
+  {
+    id: 9,
+    titulo: "Portfolio Personal",
+    diseñador: "Isabel Cruz",
+    imagen: "https://cdn.dribbble.com/userupload/7728724/file/original-883b63f23355d843ffc7f015ab8ad775.jpg?resize=400x0",
+    likes: 147,
+    etiquetas: ["portfolio", "personal", "web"],
+    destacado: false,
+  },
+  {
+    id: 10,
+    titulo: "Education Platform UI",
+    diseñador: "Daniela Silva",
+    imagen: "https://cdn.dribbble.com/userupload/13953073/file/original-6e33bd6ccc468a2226346e03cd705f33.png?format=webp&resize=400x300&vertical=center",
+    likes: 389,
+    etiquetas: ["education", "platform", "ui"],
+    destacado: true,
+  },
+];
