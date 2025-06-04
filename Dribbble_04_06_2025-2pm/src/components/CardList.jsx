@@ -1,7 +1,5 @@
 import { useState, useEffect } from "react";
-import { diseños } from "../data/items"; // asegurate de que el nombre del archivo sea correcto
-import ItemCard from "./ItemCard";
-
+import { diseños } from "../data/items"; 
 export default function DisenoPreviewList() {
   const [listaDiseños, setListaDiseños] = useState([]);
 
@@ -26,8 +24,8 @@ export default function DisenoPreviewList() {
           <div key={item.id} className="col-12 col-sm-6 col-md-4">
             <ItemCard
               item={item}
-              favorites={[]} // aquí deberías conectar tu estado real de favoritos
-              onToggleFavorite={() => {}} // o pasar una función real
+              favorites={[]} 
+              onToggleFavorite={() => {}} 
               showFavoriteBtn={false}
             />
           </div>

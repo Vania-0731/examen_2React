@@ -35,7 +35,7 @@ export default function ItemList({
             item={item}
             favorites={favorites}
             onToggleFavorite={onToggleFavorite}
-            showDescription={false}     // descripción desactivada (no existe en el mock)
+            showDescription={false}  
             showFavoriteBtn={true}
           />
         </div>

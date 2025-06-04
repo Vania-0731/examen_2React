@@ -10,7 +10,6 @@ export default function CarouselBanner({
   const carouselRef = useRef(null);
   const carouselInstance = useRef(null);
 
-  // Colores estilo Dribbble
   const dribbbleRosa = "#EA4C89";
   const fondoClaro = "#f9f9f9";
   const textoOscuro = "#333";

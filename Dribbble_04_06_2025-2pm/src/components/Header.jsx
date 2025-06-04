@@ -1,7 +1,6 @@
 import { Link } from "react-router-dom";
 
 export default function Header() {
-  // Paleta Dribbble
   const dribbbleRosa = "#EA4C89";
   const fondoClaro = "#f9f9f9";
   const textoOscuro = "#333";

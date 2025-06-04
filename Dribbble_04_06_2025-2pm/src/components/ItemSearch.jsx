@@ -18,7 +18,6 @@ export default function DisenoSearch() {
 
   useEffect(() => {
     setTimeout(() => {
-      // Evitar duplicados por id, si acaso
       const uniqueItems = Array.from(
         new Map(diseños.map(item => [item.id, item])).values()
       );

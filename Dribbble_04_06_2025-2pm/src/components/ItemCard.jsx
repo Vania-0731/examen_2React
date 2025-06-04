@@ -14,7 +14,6 @@ function ItemCard({
     notifyFavorite(action, item.titulo);
   };
 
-  // Paleta Dribbble
   const rosaDribbble = "#EA4C89";
   const fondo = "#FFFFFF";
   const textoPrincipal = "#333333";

@@ -1,7 +1,6 @@
 import { useState } from "react";
 
 export default function ContactForm() {
-  // Colores Dribbble
   const dribbbleRosa = "#EA4C89";
   const fondoClaro = "#f9f9f9";
   const textoOscuro = "#333";
